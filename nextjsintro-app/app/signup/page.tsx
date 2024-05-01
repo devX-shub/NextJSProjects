@@ -1,9 +1,7 @@
-import Image from "next/image";
-
-export default function Signup() {
+import { Signup } from "@/components/Signup";
+//use differnet function name.
+export default function signup() {
   return (
-    <div>
-      Signup
-    </div>
+    <Signup/>
   );
 }
